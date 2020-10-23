@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #202126;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body #modal {
+  overflow: hidden;
+  position: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  font-size: 75%;
+}
+
+@media only screen and  (min-width: 1367px) and (max-width: 1440px) {
+  html { 
+     font-size: 85%; 
+  }
+}
+
+@media only screen and  (min-width: 1441px) {
+  html { 
+     font-size: 100%; 
+  }
+}
+
